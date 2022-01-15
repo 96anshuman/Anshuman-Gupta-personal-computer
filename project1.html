@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery</title>
+</head>
+<link rel="stylesheet" href="food.css">
+<link rel="stylesheet" media="screen and (max-width:1270px)" href="phone.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://console.kr-asia.com/wp-content/uploads/2020/05/Food-Delivery-Shutterstock-M-Size-1-scaled.jpg" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">home</a></li>
+            <li class="item">
+                <a href="#services-container">Services</a></li>
+            <li class="item">
+                <a href="#login">Sign Up </a></li>
+            <li class="item"><a href="#contacts">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Here we offer fresh hot warm food delivered at your home, on your doorsteps.</p>
+        <p>Join us with our journey. And order your food now, by clicking the button below</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Our Servies</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://wallpapersmug.com/download/3840x2400/ebde76/delicious-pizza-food.jpg" alt="food photo">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p><label for="Event">
+                    <input type="radio" id="Event" name="eventcatering" checked="checked"> Event catering services
+                </label></p>
+                <p><label for="Even">
+                    <input type="radio" id="Even" name="eventcatering"> Wedding catering services
+                </label></p>
+                <p><label for="Eve">
+                    <input type="radio" id="Eve" name="eventcatering"> Pantry catering services
+                </label></p>
+            </div>
+            <div class="box">
+                <img src="https://assets.grab.com/wp-content/uploads/sites/4/2020/06/15153613/bulkorders_533by355_2.jpg" alt="food photo">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+
+                <p><label for="bulk">
+                <input type="radio" id="bulk" name="50catering" checked="checked"> 70-100 people gathering
+            </label></p>
+                <p><label for="bul">
+                <input type="radio" id="bul" name="50catering"> 50-70 people gathering
+            </label></p>
+                <p><label for="bu">
+                <input type="radio" id="bu" name="50catering"> 20-50 people gathering
+            </label></p>
+            </div>
+            <div class="box">
+                <img src="https://miro.medium.com/max/1000/0*RHHxKod5FoRBI8Fk.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+
+                <p><label for="order">
+                <input type="radio" id="order" name="orederfood" checked="checked"> Starters
+            </label></p>
+                <p><label for="orde">
+                <input type="radio" id="orde" name="orederfood"> Main Cousrse
+            </label></p>
+                <p><label for="ord">
+                <input type="radio" id="ord" name="orederfood"> Dessert
+            </label></p>
+
+            </div>
+        </div>
+    </section>
+    <section id="login">
+        <h1 class="h-primary center"> Sign Up</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group"> <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group"> <label for="Email">Email:</label>
+                    <input type="email" name="name" id="Email" placeholder="Enter your Email">
+                </div>
+
+                <div class="form-group"> <label for="Phone Number">Phone Number:</label> (+91) <input type="number" name="name" id="Phone Number" placeholder="Enter your Phone Number">
+                    <button class="btn">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="contacts">
+        <h1 class="h-secondary center">Contact Us</h1>
+        <div id="contacts-box">
+            <p>Call us: +91-8770574496</p>
+            <p>Email us: anshunmangupta.01@gmail.com</p>
+            <p>Follow us: instagram </p>
+        </div>
+    </section>
+</body>
+
+</html>
