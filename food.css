@@ -240,3 +240,7 @@
         padding: 15px;
         font-weight: 700;
     }
+#contacts-box a {
+   text-decoration: none;
+   color: black;
+}
